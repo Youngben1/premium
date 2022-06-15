@@ -136,6 +136,7 @@ function Post ({post}: Props) {
 
         {/* Comments */}
         <div className="flex flex-col p-10 my-10 max-w-2xl mx-auto shadow-blue-500 space-y-2">
+            <>
             <h3 className="text-4xl">
                 Comments
             </h3>
@@ -149,8 +150,8 @@ function Post ({post}: Props) {
                     </p>
                 </div>
             })}
+            </>
         </div>
-
 
     </main>
   )
